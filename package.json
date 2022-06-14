@@ -3,7 +3,7 @@
 	"displayName": "Recipe Creator",
 	"description": "Quickly create custom recipes for your Minecraft Datapack",
 	"version": "1.0.0",
-	"publisher": "Anky Y.",
+	"publisher": "ratquaza",
 	"engines": {
 		"vscode": "^1.68.0"
 	},
