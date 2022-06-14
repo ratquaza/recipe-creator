@@ -24,7 +24,7 @@
 
 		}]
 	},
-	"icon": "https://raw.githubusercontent.com/ratquaza/recipe-creator/main/icon.png",
+	"icon": "icon.png",
 	"devDependencies": {
         "@types/vscode": "^1.68.0",
         "@types/glob": "^7.2.0",
