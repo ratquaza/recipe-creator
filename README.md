@@ -1,4 +1,4 @@
-# Recipe-Creator
+# ![](https://raw.githubusercontent.com/ratquaza/recipe-creator/main/icon.png) Recipe-Creator 
 A VS Code extension that allows you to quickly create custom recipes for your Minecraft Datapack.`
 
 Tested with Minecraft 1.19.
