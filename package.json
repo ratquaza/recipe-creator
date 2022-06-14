@@ -7,6 +7,10 @@
 	"engines": {
 		"vscode": "^1.68.0"
 	},
+	"repository": {
+    "type": "git",
+    "url": "https://github.com/ratquaza/recipe-creator.git"
+  },
 	"categories": ["Other"],
 	"keywords": ["Minecraft", "Datapack", "Custom", "Recipe"],
 	"activationEvents": [
