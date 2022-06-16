@@ -22,6 +22,10 @@
 			{
 				"command": "recipe-creator.createRecipe",
 				"title": "Create New Recipe"
+			},
+			{
+				"command": "recipe-creator.editRecipe",
+				"title": "Edit Recipe"
 			}
 		]
 	},

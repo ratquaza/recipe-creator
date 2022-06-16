@@ -59,11 +59,12 @@ module.exports = {
 			);
 
 			this.NAMESPACE = result;
-      this.ensureDir(this.getDataPath());
-      this.ensureDir(path.join(this.getNamespacePath(), "advancements"));
-      this.ensureDir(path.join(this.getNamespacePath(), "functions"));
-      this.ensureDir(path.join(this.getNamespacePath(), "recipes"));
 		}
+
+    this.ensureDir(this.getDataPath());
+    this.ensureDir(path.join(this.getNamespacePath(), "advancements"));
+    this.ensureDir(path.join(this.getNamespacePath(), "functions"));
+    this.ensureDir(path.join(this.getNamespacePath(), "recipes"));
     vscode.window.showInformationMessage(`${this.NAMESPACE} selected as Namespace.`);
   },
   verifyWorkspaceNamespace: async function() {
