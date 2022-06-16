@@ -14,15 +14,16 @@
 	"categories": ["Other"],
 	"keywords": ["Minecraft", "Datapack", "Custom", "Recipe"],
 	"activationEvents": [
-        "onCommand:recipe-creator.createRecipe"
+        "workspaceContains:pack.mcmeta"
 	],
 	"main": "./extension.js",
 	"contributes": {
-		"commands": [{
-            "command": "recipe-creator.createRecipe",
-            "title": "Create New Recipe"
-
-		}]
+		"commands": [
+			{
+				"command": "recipe-creator.createRecipe",
+				"title": "Create New Recipe"
+			}
+		]
 	},
 	"icon": "icon.png",
 	"devDependencies": {
